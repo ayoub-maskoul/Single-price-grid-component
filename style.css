@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    background-color: hsl(215, 33%, 86%);
+    z-index: -1;
+    overflow-x:hidden ;
+}
+
+.ch{
+    margin: 50px auto 0;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 500px;
+    /* border: 2px solid black; */
+    font-family: 'Karla', sans-serif;
+}
+
+.t1 .s1{
+    color:hsl(179, 62%, 43%);
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.t1 .s2{
+    color: hsl(71, 73%, 54%);
+}
+.t1{
+    color:hsl(218, 22%, 67%);
+    background-color: white;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    font-size: 13px;
+    padding-bottom: 28px
+}
+.t{
+    display: flex;
+}
+.t2{
+    width: 1200px;
+    background-color:hsl(179, 62%, 43%);
+    padding-left: 24px;
+    padding-top: 21px;
+    border-bottom-left-radius: 10px;
+    margin-right: 255px;
+}
+.t3{
+    background-color:#67d0cc;
+    border-bottom-right-radius: 10px;
+    padding: 25px;
+    padding-right: 49px;
+    margin-left: -255.1px;
+    padding-left: 48px;
+}
+.ms{
+    color: white;
+}
+.do{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+.pm{
+    padding-left: 5px;
+    color:hsl(217, 22%, 77%)  ;
+    font-size: 13px;
+}
+button{
+    color: white;
+    border: none;
+    font-size: 13px;
+    background-color: hsl(71, 73%, 54%);
+    margin-left: 0px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 10px 80px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.mo{
+    font-size: 13px;
+    color: white;
+}
+.wu{
+    color: white;
+}
+.p{
+    font-weight: 400;
+    font-size: 11px;
+    color:hsl(204, 43%, 93%);
+}
+
+@media (max-width : 520px) {
+    .t{
+        display: block;
+        width: 300px;
+    }
+    .ch{
+        width: 300px;
+        margin: 10px auto;
+    }
+    .t3{
+        margin-left: 0;
+        
+        border-bottom-left-radius: 5px;
+    }
+    .t2{
+        margin-right: 0;
+        border-bottom-left-radius: 0;
+        width: 276px;
+    }
+
+}
